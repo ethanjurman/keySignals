@@ -39,16 +39,16 @@
       const remap = player => key =>
         [
           {
-            87: 'w', // up
-            65: 'a', // left
-            83: 's', // down
-            68: 'd', // right
-            74: 'j', // 1
-            75: 'k', // 2
-            85: 'u', // A
-            73: 'i', // B
-            81: 'q', // minus
-            69: 'e', // plus
+            87: 87, // up
+            65: 65, // left
+            83: 83, // down
+            68: 68, // right
+            74: 74, // 1
+            75: 75, // 2
+            85: 85, // A
+            73: 73, // B
+            81: 81, // minus
+            69: 69, // plus
           },
           {
             87: 84, // up
@@ -63,28 +63,28 @@
             69: 89, // plus
           },
           {
-            87: '3', // up
-            65: '4', // left
-            83: '5', // down
-            68: '6', // right
-            74: '7', // 1
-            75: '8', // 2
-            85: '0', // A
-            73: '1', // B
-            81: 'minus', // minus
-            69: 'equals', // plus
+            87: 51, // up
+            65: 52, // left
+            83: 53, // down
+            68: 54, // right
+            74: 55, // 1
+            75: 56, // 2
+            85: 48, // A
+            73: 49, // B
+            81: 45, // minus
+            69: 61, // plus
           },
           {
-            87: 'numpad3', // up
-            65: 'numpad4', // left
-            83: 'numpad5', // down
-            68: 'numpad6', // right
-            74: 'numpad7', // 1
-            75: 'numpad8', // 2
-            85: 'numpad0', // A
-            73: 'numpad1', // B
-            81: 'period', // minus
-            69: 'add', // plus
+            87: 99, // up
+            65: 100, // left
+            83: 101, // down
+            68: 102, // right
+            74: 103, // 1
+            75: 104, // 2
+            85: 96, // A
+            73: 97, // B
+            81: 46, // minus
+            69: 107, // plus
           },
         ][player - 1][key] || null;
       // on key down of listener, we need to make a request to the server...
