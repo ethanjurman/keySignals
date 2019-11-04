@@ -7,16 +7,14 @@ public class KeyPusher {
     this.r = new Robot();
   }
 
-  int pushKey(String key) throws AWTException, InterruptedException {
-    System.out.println("push: " + key);
-    int keyCode = key.charAt(0);
+  int pushKey(int keyCode) throws AWTException, InterruptedException {
+    System.out.println("push: " + keyCode);
     this.r.keyPress(keyCode);
     return keyCode;
   }
 
-  int releaseKey(String key) throws AWTException, InterruptedException {
-    System.out.println("release: " + key);
-    int keyCode = key.charAt(0);
+  int releaseKey(int keyCode) throws AWTException, InterruptedException {
+    System.out.println("release: " + keyCode);
     this.r.keyRelease(keyCode);
     return keyCode;
   }
