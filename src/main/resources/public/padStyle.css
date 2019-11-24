@@ -1,0 +1,112 @@
+body * {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  overflow: hidden;
+}
+
+#buttonArea {
+  padding: 35px;
+}
+
+.dpad {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  position: absolute;
+  transform-origin: 100px 100px;
+  border-top-left-radius: 100px;
+}
+
+#up {
+  transform: rotate(45deg);
+}
+#right {
+  transform: rotate(135deg);
+}
+#down {
+  transform: rotate(225deg);
+}
+#left {
+  transform: rotate(-45deg);
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 100%;
+  border: 2px solid black;
+  position: absolute;
+  right: 180px;
+  transform-origin: 110px 110px;
+}
+
+#A {
+  transform: rotate(-45deg);
+  width: 80px;
+  height: 80px;
+}
+#A > div {
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+#B {
+  transform: rotate(45deg);
+  width: 80px;
+  height: 80px;
+  transform-origin: 70px 100px;
+}
+#B > div {
+  transform: rotate(-45deg);
+  pointer-events: none;
+}
+#one {
+  transform: rotate(225deg);
+}
+#one > div {
+  transform: rotate(-225deg);
+  pointer-events: none;
+}
+#two {
+  transform: rotate(135deg);
+}
+#two > div {
+  transform: rotate(-135deg);
+  pointer-events: none;
+}
+
+.menuButton {
+  width: 70px;
+  height: 30px;
+  background: white;
+  border-radius: 30px;
+  border: 2px solid black;
+  position: absolute;
+}
+
+#minus {
+  right: calc(50% + 10px);
+}
+
+#plus {
+  left: calc(50% + 10px);
+}
+
+button:focus {
+  outline: 0;
+}
+
+#goFS {
+  border: 2px solid black;
+  background: white;
+  border-radius: 4px;
+  font-size: 2em;
+  position: fixed;
+  bottom: 16px;
+  left: calc(50% - 78px);
+}
