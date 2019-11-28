@@ -1,3 +1,5 @@
+const machineIP = window.location.href.match(/(.+)\//)[0]
+
 let player = window.location.href.match(/player=(\d+)/)
   ? Number(window.location.href.match(/player=(\d+)/)[1])
   : 1;
@@ -80,7 +82,7 @@ document.addEventListener('keydown', event => {
   }
   pressedKeys = { ...pressedKeys, [remapKey]: true };
   const indicator = document.getElementById('indicator');
-  fetch(`http://73.142.228.36:2229/keyDown/${remapKey}`).then(() => {
+  fetch(`${machineIP}/keyDown/${remapKey}`).then(() => {
     indicator.style.background = 'green';
   });
 });
@@ -98,7 +100,7 @@ document.addEventListener('keyup', event => {
   }
   delete pressedKeys[remapKey];
   const indicator = document.getElementById('indicator');
-  fetch(`http://73.142.228.36:2229/keyUp/${remapKey}`).then(() => {
+  fetch(`${machineIP}/keyUp/${remapKey}`).then(() => {
     if (Object.keys(pressedKeys).length === 0) {
       indicator.style.background = 'black';
     }

@@ -1,3 +1,5 @@
+const machineIP = window.location.href.match(/(.+)\//)[0]
+
 let player = window.location.href.match(/player=(\d+)/)
   ? Number(window.location.href.match(/player=(\d+)/)[1])
   : 1;
@@ -79,7 +81,7 @@ const hitKeys = keyCodes => {
     });
     pressedKeys = { ...pressedKeys, [keyCode]: true };
     const button = document.getElementById(keyCode);
-    fetch(`http://73.142.228.36:2229/keyDown/${remapKey}`).then(() => {
+    fetch(`${machineIP}/keyDown/${remapKey}`).then(() => {
       button.style.background = 'rgb(63, 63, 63)';
     });
   });
@@ -98,7 +100,7 @@ const releaseKey = keyCode => {
   }
   delete pressedKeys[keyCode];
   const button = document.getElementById(keyCode);
-  fetch(`http://73.142.228.36:2229/keyUp/${remapKey}`).then(() => {
+  fetch(`${machineIP}/keyUp/${remapKey}`).then(() => {
     if (!pressedKeys[keyCode]) {
       button.style.background = 'white';
     }

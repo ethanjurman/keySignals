@@ -23,16 +23,16 @@ body {
 }
 
 #up {
-  transform: rotate(45deg);
+  transform: translateY(50%) rotate(45deg);
 }
 #right {
-  transform: rotate(135deg);
+  transform: translateY(50%) rotate(135deg);
 }
 #down {
-  transform: rotate(225deg);
+  transform: translateY(50%) rotate(225deg);
 }
 #left {
-  transform: rotate(-45deg);
+  transform: translateY(50%) rotate(-45deg);
 }
 
 .button {
@@ -47,7 +47,7 @@ body {
 }
 
 #A {
-  transform: rotate(-45deg);
+  transform: translateY(50%) rotate(-45deg);
   width: 80px;
   height: 80px;
 }
@@ -56,7 +56,7 @@ body {
   pointer-events: none;
 }
 #B {
-  transform: rotate(45deg);
+  transform: translateY(50%) rotate(45deg);
   width: 80px;
   height: 80px;
   transform-origin: 70px 100px;
@@ -66,14 +66,14 @@ body {
   pointer-events: none;
 }
 #one {
-  transform: rotate(225deg);
+  transform: translateY(50%) rotate(225deg);
 }
 #one > div {
   transform: rotate(-225deg);
   pointer-events: none;
 }
 #two {
-  transform: rotate(135deg);
+  transform: translateY(50%) rotate(135deg);
 }
 #two > div {
   transform: rotate(-135deg);
