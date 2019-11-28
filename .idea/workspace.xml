@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7927cf-b19c-466a-92f0-ec66d5010ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/wiimote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/wiimote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/readPad.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/readPad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KeyReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KeyReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/wiimote.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/wiimote.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +64,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="KeyReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KeyReceiver" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
       <module name="KeyPusher" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,7 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KeyReceiver" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
