@@ -32,3 +32,8 @@
   background: black;
   border-radius: 100%;
 }
+
+.wiimoteImage {
+  max-width: 800px;
+  padding-left: 50px;
+}
