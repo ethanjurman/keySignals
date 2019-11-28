@@ -8,13 +8,11 @@ public class KeyPusher {
   }
 
   int pushKey(int keyCode) throws AWTException, InterruptedException {
-    System.out.println("push: " + keyCode);
     this.r.keyPress(keyCode);
     return keyCode;
   }
 
   int releaseKey(int keyCode) throws AWTException, InterruptedException {
-    System.out.println("release: " + keyCode);
     this.r.keyRelease(keyCode);
     return keyCode;
   }

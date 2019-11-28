@@ -1,4 +1,5 @@
 const machineIP = window.location.href.match(/(.+)\//)[0];
+const canVibrate = Boolean(window.navigator.vibrate);
 
 let player = window.location.href.match(/player=(\d+)/)
   ? Number(window.location.href.match(/player=(\d+)/)[1])
@@ -165,6 +166,9 @@ const getAdjacentTargets = ({ target, x, y }) => {
       const hitTargets = [...new Set(adjacentTargets)];
       if (hitTargets.length > 0) {
         hitKeys(hitTargets);
+        if (canVibrate) {
+          window.navigator.vibrate(5);
+        }
       }
     }),
   );
