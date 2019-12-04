@@ -3,7 +3,7 @@ const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 
-app.use(express.static('new'));
+app.use(express.static('public'));
 
 io.on('connection', socket => {
   console.log('a user connected');
@@ -27,4 +27,4 @@ io.on('connection', socket => {
     io.emit('host candidate', { key, candidate });
   });
 });
-http.listen(2228, () => console.log(`listening on port 2228!`));
+http.listen(2229, () => console.log(`listening on port 2229!`));
