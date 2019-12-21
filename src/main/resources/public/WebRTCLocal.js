@@ -115,6 +115,14 @@ socket.on('host candidate', ({ key, candidate }) => {
   local.addIceCandidate(candidate);
 });
 
+socket.on('close', ({ key }) => {
+  const local = connections[key];
+  if (local) {
+    console.log('remove connection', key);
+    local.close();
+  }
+});
+
 const startVideoButton = document.querySelector('#startVideo');
 
 const startVideo = () => {
@@ -135,6 +143,7 @@ const startVideo = () => {
       } else {
         video.srcObject = stream;
       }
+      video.className = '';
 
       return stream;
     });
@@ -162,6 +171,8 @@ const startAudio = () => {
       } else {
         video.srcObject = stream;
       }
+      video.className = '';
+
       return stream;
     });
 };
@@ -183,3 +194,7 @@ navigator.mediaDevices.enumerateDevices().then(devices => {
     audioSelect.add(option);
   });
 });
+
+const videoElement = document.querySelector('video');
+
+videoElement.onpause = event => event.target.play();

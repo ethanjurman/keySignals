@@ -12,6 +12,7 @@ const setPlayer = index => event => {
     document.getElementById(playerId).className = 'playerButton';
   });
   document.getElementById(`p${index}`).className = 'playerButton selected';
+  document.getElementById(`mobile-button`).setAttribute('value', index);
 };
 const remap = player => key =>
   [
@@ -77,9 +78,9 @@ document.addEventListener('keydown', event => {
     return;
   }
   pressedKeys = { ...pressedKeys, [remapKey]: true };
-  const indicator = document.getElementById('indicator');
+  const indicator = document.getElementById(`p${player}`);
   fetch(`${machineIP}/keyDown/${remapKey}`, { mode: 'no-cors' }).then(() => {
-    indicator.style.background = 'green';
+    indicator.classList.add('buttonClicked');
   });
 });
 // on key up of listener, we need to make a request to the server...
@@ -90,10 +91,10 @@ document.addEventListener('keyup', event => {
     return;
   }
   delete pressedKeys[remapKey];
-  const indicator = document.getElementById('indicator');
+  const indicator = document.getElementById(`p${player}`);
   fetch(`${machineIP}/keyUp/${remapKey}`, { mode: 'no-cors' }).then(() => {
     if (Object.keys(pressedKeys).length === 0) {
-      indicator.style.background = 'black';
+      indicator.classList.remove('buttonClicked');
     }
   });
 });

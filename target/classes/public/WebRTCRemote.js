@@ -77,6 +77,7 @@ const uniqueHash = new Date().getTime().toString(36);
 
 const gotRemoteStream = event => {
   const video = document.querySelector('#remoteVideo');
+  video.className = '';
   video.srcObject = event.streams[0];
 };
 
@@ -129,3 +130,7 @@ const connectButton = document.querySelector('#connect');
 connectButton.addEventListener('click', () => {
   socket.emit('request host', uniqueHash);
 });
+
+const videoElement = document.querySelector('video');
+
+videoElement.onpause = event => event.target.play();

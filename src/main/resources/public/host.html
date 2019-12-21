@@ -3,38 +3,37 @@
     <title>Key Express</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="padStyle.css" />
     <script src="/socket.io/socket.io.js"></script>
   </head>
 
-  <body height="100%" width="100%">
+  <body>
     <div style="float: left">
-      <div id="indicator" class="indicator-circle"></div>
       <div>
         <button id="p1" class="playerButton">PLAYER 1</button>
-        <a href="./mobile.html?player=1">🎮 mobile site</a>
-      </div>
-      <div>
         <button id="p2" class="playerButton">PLAYER 2</button>
-        <a href="./mobile.html?player=2">🎮 mobile site</a>
       </div>
       <div>
         <button id="p3" class="playerButton">PLAYER 3</button>
-        <a href="./mobile.html?player=3">🎮 mobile site</a>
-      </div>
-      <div>
         <button id="p4" class="playerButton">PLAYER 4</button>
-        <a href="./mobile.html?player=4">🎮 mobile site</a>
       </div>
+      <form>
+        <button
+          id="mobile-button"
+          type="submit"
+          name="player"
+          value="1"
+          formaction="./mobile.html"
+        >
+          Mobile Controller Site
+        </button>
+      </form>
     </div>
     <div>
       <img class="wiimoteImage" src="wiimote.png" />
     </div>
-    <video id="localVideo" autoplay controls></video>
+    <video id="localVideo" class="hideVideo" autoplay controls></video>
     <div>
-      <select id="audioDevices"> </select>
-    </div>
-    <div>
+      <select id="audioDevices"></select>
       <button id="startAudio">START AUDIO</button>
     </div>
     <div>
