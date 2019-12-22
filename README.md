@@ -28,6 +28,9 @@ Alternatively, you can use other video/ audio sharing techniques (Discord Stream
 
 ## Dolphin controller setup
 
+To simplify the controls for other users, the site maps WASD (and other keys) pushed by players into key presses across the keyboard (since Dolphin sees all inputs as coming from one keyboard device, this is necessary to prevent keys interacting with each other).
+**Assign these values below, and players just need to follow the wiimote image diagram on the website**
+
 Player 1 | Player 2
 --- | ---
 ![image](https://user-images.githubusercontent.com/1131494/71322803-aa101b80-2499-11ea-8da0-81b5188ee432.png) | ![image](https://user-images.githubusercontent.com/1131494/71322807-bac09180-2499-11ea-8e77-aac2b8124700.png)
