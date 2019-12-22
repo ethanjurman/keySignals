@@ -1,5 +1,5 @@
 # keySignals
-A way to send and receive keys to be listened to on a host machine - for the purposes of playing games (specifically design around playing Dokapon Kingdom).
+A way to send and receive keys to be listened to on a host machine - for the purposes of playing games (specifically design around playing Dokapon Kingdom). _Note: This is an ongoing project._
 
 ![image](https://user-images.githubusercontent.com/1131494/71322947-78984f80-249b-11ea-82ff-e8bee890c787.png)
 
@@ -25,6 +25,11 @@ Other machines (that access the site via `http://{your public ip}:2229/`) select
 In order to get sound working you'll need to pipe dolphins audio to a virtual mic- I personally use [VB Audio Virtual Cable](https://www.vb-audio.com/Cable/), but use whatever solution you feel comfortable with. This won't be neccesary once getDisplayMedia supports audio piping (as it does with chrome tabs and when sharing the entire desktop window).
 
 Alternatively, you can use other video/ audio sharing techniques (Discord Streaming, etc...), but I've found best results by crafting my solution (surprisingly enough).
+
+## Mobile site
+There is also a mobile site, used if someone wants to interact with the game without streaming the video or without a full computer device. Make sure to allow landscape rotation and fullscreen for the best experience.
+![image](https://user-images.githubusercontent.com/1131494/71323359-358cab00-24a0-11ea-986a-63a9b7725c60.png)
+
 
 ## Dolphin controller setup
 
