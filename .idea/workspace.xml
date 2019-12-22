@@ -2,39 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7927cf-b19c-466a-92f0-ec66d5010ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/WebRTCLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/WebRTCLocal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/host.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/host.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/readKeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/readKeys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/readPad.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/readPad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/readKeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/readKeys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/readPad.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/readPad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server.js" afterDir="false" />
-=======
-<<<<<<< Updated upstream
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/WebRTCLocal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/WebRTCLocal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/WebRTCRemote.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/WebRTCRemote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/readKeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/readKeys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" afterDir="false" />
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">

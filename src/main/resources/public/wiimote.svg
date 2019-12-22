@@ -32,7 +32,7 @@
      inkscape:cx="314.75895"
      inkscape:cy="145.14092"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -400,14 +400,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-262.3501"
-       y="-10.121209"
-       id="text857"
-       transform="rotate(-105)"><tspan
+       x="51.185951"
+       y="255.83289"
+       id="text857"><tspan
          sodipodi:role="line"
          id="tspan855"
-         x="-262.3501"
-         y="-10.121209"
+         x="51.185951"
+         y="255.83289"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.26458332">A</tspan></text>
     <circle
        r="2.8422041"
@@ -472,28 +471,27 @@
        id="circle908"
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
     <text
-       transform="rotate(-105)"
+       transform="rotate(-15)"
        id="text912"
-       y="57.385468"
-       x="-278.24704"
+       y="279.26663"
+       x="52.131279"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.26458332"
-         y="57.385468"
-         x="-278.24704"
+         y="279.26663"
+         x="52.131279"
          id="tspan910"
          sodipodi:role="line">1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-282.83026"
-       y="70.40107"
-       id="text916"
-       transform="rotate(-105)"><tspan
+       x="135.38951"
+       y="255.65913"
+       id="text916"><tspan
          sodipodi:role="line"
          id="tspan914"
-         x="-282.83026"
-         y="70.40107"
+         x="135.38951"
+         y="255.65913"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'MV Boli';-inkscape-font-specification:'MV Boli';stroke-width:0.26458332">2</tspan></text>
     <g
        id="g901"

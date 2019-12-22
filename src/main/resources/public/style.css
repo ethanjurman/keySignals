@@ -42,6 +42,7 @@ select {
 
 .buttonClicked {
   border: 5px solid #3788a8;
+  background: #596ddb;
 }
 
 .wiimoteImage {
