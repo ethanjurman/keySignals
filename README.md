@@ -1,4 +1,4 @@
-# keySignals (
+# keySignals 
 A way to send and receive keys to be listened to on a host machine - for the purposes of playing games (specifically design around playing Dokapon Kingdom). _Note: This is an ongoing project._
 
 Shoutouts to [@jrjurman](https://github.com/jrjurman/) for his help on the initial parts of the project (especially surrounding Java Spark).
@@ -13,6 +13,9 @@ Certain games have poor support for dolphin netplay, and this solution does not 
 
 ## Startup
 Run the `Server` java class to start listening to keypresses. This web application runs on port 2228. Requires maven install. Run `npm install` and `node server.js` in the `resources` folder to run the site. It will host on port 2229. Requires npm install. (It is my hope that I can at some point simplify this build process, but currently is not a priority of mine).
+
+(**TL;DR: open ports 2228 and 2229 on your router**)
+
 Afterwards that anyone who navigates to the website and inputs key presses on the page will get sent to the host machine. 
 These key presses will always target the focused window, so for a game, make sure you are always focused on the game window.
 
