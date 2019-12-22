@@ -16,7 +16,7 @@ These key presses will always target the focused window, so for a game, make sur
 
 ## Establishing Video connection
 
-host (localhost:2229/host.html) | remote (http://{hosts ip address}:2229
+host (_localhost:2229/host.html_) | remote (_http://{hosts ip address}:2229_)
 --- | ---
 ![image](https://user-images.githubusercontent.com/1131494/71323026-a631c880-249c-11ea-8a54-b06c66b62191.png) | ![image](https://user-images.githubusercontent.com/1131494/71323035-b77ad500-249c-11ea-8835-ec968cd3c8ef.png)
 
